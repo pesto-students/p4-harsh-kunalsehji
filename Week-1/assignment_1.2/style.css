@@ -1,0 +1,129 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+/* Global resetting */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 75px);
+}
+
+.New {
+  width: 96%;
+  float: left;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  background-color: #454545;
+}
+
+.sidebar {
+  background-color: #f2f2f2;
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sidebar a {
+  display: block;
+  color: black;
+}
+
+.header__image {
+  margin-right: 20px;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__content p {
+  margin-top: 10px;
+  margin-bottom: auto;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+h3,
+p {
+  color: white;
+}
+
+h3 {
+  margin: 0;
+}
+
+.header__controls {
+  display: flex;
+  gap: 15px;
+  color: #f2f2f2;
+}
+
+.header__controls div {
+  cursor: pointer;
+}
+
+.header__controls i {
+  margin-right: 5px;
+}
+
+.table td {
+  padding: 8px;
+  width: 25%;
+}
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #43689b;
+  height: 65px;
+  padding: 5px;
+}
+.tdstyle {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.footer__controls {
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+}
+
+.footer__controls div {
+  cursor: pointer;
+}
+
+footer p {
+  color: white;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 2;
+  vertical-align: top;
+}
+
+.footer__image {
+  height: 55px;
+  width: 55px;
+  overflow: hidden;
+}
+
+.footer__image img {
+  height: 100%;
+}
